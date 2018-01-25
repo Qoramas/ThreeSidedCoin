@@ -4,6 +4,8 @@ This is a project designed to test and try to find a fair 3 sided coin.
 Watch this video by Matt Parker for context : https://www.youtube.com/watch?v=-qqPKKOU-yY
 
 ## Instructions
+
+#### Panel Controls
 * **Generate** - Generates the coins above the ground in a random orientation.
 * **Clear** - Removes all of the coins
 * **Count** Slider - A slider to select the number of coins to generate at a time
@@ -12,6 +14,9 @@ Watch this video by Matt Parker for context : https://www.youtube.com/watch?v=-q
 * **Colour Toggle** - If true the coins will change colour based on their orientation. Heads(red), Tails(blue), Sides(magenta), ⋅⋅* Invalid(yellow)
 * **Velocity Slider** - The range for the random starting velocity of each coin
 * **Angular Velocity Slider** - The range for the random starting angular velocity of each coin
+
+#### Camera Controls
+To move around the camera, click and hold anywhere on the screen. While holding move the mouse to move the direction and use the arrows (or WASD) to move the position of the camera.
 
 ## Notes
 The velocity makes a large difference to the "fairness" of the coin. For example 2.7 as the ratio will have very close to even odds if the velocity is set low. This would simulate simply flipping the coin. But once you add in a bit of velocity the odds of landing on its side dramatically increase (to roughly 60% of the coins).
