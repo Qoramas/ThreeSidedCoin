@@ -4,14 +4,14 @@ This is a project designed to test and try to find a fair 3 sided coin.
 Watch this video by Matt Parker for context : https://www.youtube.com/watch?v=-qqPKKOU-yY
 
 ## Instructions
-⋅⋅* **Generate** - Generates the coins above the ground in a random orientation.
-⋅⋅* **Clear** - Removes all of the coins
-⋅⋅* **Count** Slider - A slider to select the number of coins to generate at a time
-⋅⋅* **Ratio** - The ratio between the diameter of the coin to its width. For example the video uses the value 2√2, so use 2.828 for the value here.
-⋅⋅* **Collisions Toggle** - If true all **new** coins will collide with one another
-⋅⋅* **Colour Toggle** - If true the coins will change colour based on their orientation. Heads(red), Tails(blue), Sides(magenta), ⋅⋅* Invalid(yellow)
-⋅⋅* **Velocity Slider** - The range for the random starting velocity of each coin
-..* **Angular Velocity Slider** - The range for the random starting angular velocity of each coin
+* **Generate** - Generates the coins above the ground in a random orientation.
+* **Clear** - Removes all of the coins
+* **Count** Slider - A slider to select the number of coins to generate at a time
+* **Ratio** - The ratio between the diameter of the coin to its width. For example the video uses the value 2√2, so use 2.828 for the value here.
+* **Collisions Toggle** - If true all **new** coins will collide with one another
+* **Colour Toggle** - If true the coins will change colour based on their orientation. Heads(red), Tails(blue), Sides(magenta), ⋅⋅* Invalid(yellow)
+* **Velocity Slider** - The range for the random starting velocity of each coin
+* **Angular Velocity Slider** - The range for the random starting angular velocity of each coin
 
 ## Notes
 The velocity makes a large difference to the "fairness" of the coin. For example 2.7 as the ratio will have very close to even odds if the velocity is set low. This would simulate simply flipping the coin. But once you add in a bit of velocity the odds of landing on its side dramatically increase (to roughly 60% of the coins).
